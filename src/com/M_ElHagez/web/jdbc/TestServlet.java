@@ -1,4 +1,4 @@
-package com.luv2code.web.jdbc;
+package com.M_ElHagez.web.jdbc;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -42,8 +42,9 @@ public class TestServlet extends HttpServlet {
 		ResultSet myRs = null;
 		
 	try {
+		System.out.println("try.....");
 		myConn = dataSource.getConnection();
-		
+		System.out.println("connection created.....");
 	
 		//s3   create a sql statement
 		String sql = "select * from student";
@@ -59,6 +60,7 @@ public class TestServlet extends HttpServlet {
 		
 	}
 	catch (Exception exc) {
+		System.out.println(exc);
 		exc.printStackTrace();
 		
 	}
