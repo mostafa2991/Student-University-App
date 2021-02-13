@@ -21,8 +21,10 @@ import javax.sql.DataSource;
 public class TestServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 // define datasource for resource
+	
 	@Resource(name="jdbc/web_student_tracker")
 	private DataSource dataSource;
+//	private CreateNewSchema cn = null;
 	
 	
 	
@@ -31,8 +33,6 @@ public class TestServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-
 		//s1 set up printwriter
 		PrintWriter out = response.getWriter();
 		response.setContentType("text/plain");
@@ -43,7 +43,9 @@ public class TestServlet extends HttpServlet {
 		
 	try {
 		System.out.println("try.....");
-		myConn = dataSource.getConnection();
+	myConn = dataSource.getConnection();
+//	cn.testConnectionWithDB();
+		
 		System.out.println("connection created.....");
 	
 		//s3   create a sql statement
