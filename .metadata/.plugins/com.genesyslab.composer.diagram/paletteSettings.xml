@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiagramPaletteSettings version="8141">
+<IPD/>
+<ROUTE>
+<entry IMemento.internal.id="__root/createVoiceTreatments4Group" initialState="1" key="createVoiceTreatments4Group"/>
+<entry IMemento.internal.id="__root/createFlowControl2Group" initialState="0" key="createFlowControl2Group"/>
+<entry IMemento.internal.id="__root/createRouting3Group" initialState="1" key="createRouting3Group"/>
+<entry IMemento.internal.id="__root/createEServices7Group" initialState="1" key="createEServices7Group"/>
+<entry IMemento.internal.id="__root/createContextServices6Group" initialState="1" key="createContextServices6Group"/>
+<entry IMemento.internal.id="__root/createServerSide5Group" initialState="1" key="createServerSide5Group"/>
+</ROUTE>
+<ROUTE_SUB/>
+<GVP>
+<entry IMemento.internal.id="__root/createServerSideBlocks3Group" initialState="1" key="createServerSideBlocks3Group"/>
+<entry IMemento.internal.id="__root/createReportingBlocks5Group" initialState="1" key="createReportingBlocks5Group"/>
+<entry IMemento.internal.id="__root/createExternalMessageBlocks6Group" initialState="1" key="createExternalMessageBlocks6Group"/>
+<entry IMemento.internal.id="__root/createGenesysCTIBlocks4Group" initialState="1" key="createGenesysCTIBlocks4Group"/>
+<entry IMemento.internal.id="__root/createDatabaseBlocks7Group" initialState="1" key="createDatabaseBlocks7Group"/>
+<entry IMemento.internal.id="__root/createContextServices8Group" initialState="1" key="createContextServices8Group"/>
+</GVP>
+<GVP_SUB/>
+</DiagramPaletteSettings>

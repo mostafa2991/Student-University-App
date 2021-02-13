@@ -1,0 +1,330 @@
+!SESSION 2021-02-11 11:32:03.125 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product
+Command-line arguments:  -data E:\PersonalProjects\Student-University-App -os win32 -ws win32 -arch x86_64 -product
+
+!ENTRY com.genesyslab.composer.core 1 20000 2021-02-11 11:32:09.803
+!MESSAGE 2021-02-11 11:32:09,796 INFO main composer.core.Activator (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.core for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:09.838
+!MESSAGE 2021-02-11 11:32:09,838 INFO main com.genesyslab.platform.commons.log.Log - Checking PSDK jars versions:
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.043
+!MESSAGE 2021-02-11 11:32:10,043 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: kvlists.jar of 8.1.400.03 (com.genesyslab.platform.commons.collections by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.043
+!MESSAGE 2021-02-11 11:32:10,043 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: kvlistbinding.jar of 8.1.400.03 (com.genesyslab.platform.commons.collections.keyvaluebinding by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.048
+!MESSAGE 2021-02-11 11:32:10,043 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: commons.jar of 8.1.400.03 (com.genesyslab.platform.commons by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.048
+!MESSAGE 2021-02-11 11:32:10,048 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: system.jar of 8.1.400.03 (com.genesyslab.platform.system by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.049
+!MESSAGE 2021-02-11 11:32:10,049 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: connection.jar of 8.1.400.03 (com.genesyslab.platform.commons.connection by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.049
+!MESSAGE 2021-02-11 11:32:10,049 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: protocol.jar of 8.1.400.03 (com.genesyslab.platform.commons.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.050
+!MESSAGE 2021-02-11 11:32:10,050 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: configurationprotocol.jar of 8.1.400.03 (com.genesyslab.platform.configuration.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.051
+!MESSAGE 2021-02-11 11:32:10,050 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: contactsprotocol.jar of 8.1.400.03 (com.genesyslab.platform.contacts.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.051
+!MESSAGE 2021-02-11 11:32:10,051 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: managementprotocol.jar of 8.1.400.03 (com.genesyslab.platform.management.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.052
+!MESSAGE 2021-02-11 11:32:10,052 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: openmediaprotocol.jar of 8.1.400.03 (com.genesyslab.platform.openmedia.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.053
+!MESSAGE 2021-02-11 11:32:10,053 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: outboundprotocol.jar of 8.1.400.03 (com.genesyslab.platform.outbound/protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.053
+!MESSAGE 2021-02-11 11:32:10,053 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: routingprotocol.jar of 8.1.400.03 (com.genesyslab.platform.routing.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.054
+!MESSAGE 2021-02-11 11:32:10,054 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: reportingprotocol.jar of 8.1.400.03 (com.genesyslab.platform.reporting.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.054
+!MESSAGE 2021-02-11 11:32:10,054 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: voiceprotocol.jar of 8.1.400.03 (com.genesyslab.platform.voice.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.055
+!MESSAGE 2021-02-11 11:32:10,055 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: webmediaprotocol.jar of 8.1.400.03 (com.genesyslab.platform.webmedia.protocol by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.055
+!MESSAGE 2021-02-11 11:32:10,055 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: messagebrokerappblock.jar of 8.1.400.03 (com.genesyslab.platform.applicationblocks.commons by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.056
+!MESSAGE 2021-02-11 11:32:10,056 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: warmstandbyappblock.jar of 8.1.400.03 (com.genesyslab.platform.applicationblocks.warmstandby by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.056
+!MESSAGE 2021-02-11 11:32:10,056 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: protocolmanagerappblock.jar of 8.1.400.03 (com.genesyslab.platform.applicationblocks.commons.protocols by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.056
+!MESSAGE 2021-02-11 11:32:10,056 INFO main com.genesyslab.platform.commons.log.Log - PSDK jar in the classpath: comappblock.jar of 8.1.400.03 (com.genesyslab.platform.applicationblocks.com by Genesys Telecommunication Laboratories, Inc.)
+ 
+
+!ENTRY com.genesyslab.composer.route.thirdparty 1 20000 2021-02-11 11:32:10.084
+!MESSAGE 2021-02-11 11:32:10,059 INFO com.genesyslab.PCT.invoker.COM-MessageBroker com.genesyslab.platform.commons.threading.SingleThreadInvoker - SingleThreadInvoker('COM-MessageBroker') has started
+ 
+
+!ENTRY com.genesyslab.composer.route.ui 1 20000 2021-02-11 11:32:10.088
+!MESSAGE 2021-02-11 11:32:10,088 INFO main com.genesys.composer.route.ui.configserver.StateMachine - null=>NotConnectedState
+ 
+
+!ENTRY org.eclipse.jface 2 0 2021-02-11 11:32:10.987
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-11 11:32:10.987
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c38f4de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.ui.newWizard,New,
+		Open the New item wizard,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@489c15e2,
+		[Parameter(newWizardId,New Wizard,null,true)],,true),[org.eclipse.core.commands.Parameterization@70834860]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-11 11:32:10.987
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@923bf67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.ui.newWizard,New,
+		Open the New item wizard,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@489c15e2,
+		[Parameter(newWizardId,New Wizard,null,true)],,true),[org.eclipse.core.commands.Parameterization@23b46b2d]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-11 11:32:10.987
+!MESSAGE A conflict occurred for ALT+CTRL+G:
+Binding(ALT+CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.search.ui.performTextSearchWorkspace,Find Text in Workspace,
+		Searches the files in the workspace for specific text.,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@938e54a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+G,
+	ParameterizedCommand(Command(com.genesyslab.composer.common.LaunchGaxCommand,Launch GAX Server command,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@220d7eb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-11 11:32:26.965
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\IST Networks'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genesyslab.composer.diagram 1 20000 2021-02-11 11:32:28.396
+!MESSAGE 2021-02-11 11:32:28,394 INFO Worker-2 composer.diagram.ComposerDiagramEditorPlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.diagram for detailed logging
+ 
+
+!ENTRY com.genesyslab.studio.tomcatdeployer 1 20000 2021-02-11 11:32:28.974
+!MESSAGE 2021-02-11 11:32:28,969 INFO Worker-2 studio.tomcatdeployer.TomcatDeployerPlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.studio.tomcatdeployer for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.voice.debug.core 1 20000 2021-02-11 11:32:29.024
+!MESSAGE 2021-02-11 11:32:29,023 INFO Worker-2 rtdclient.core.RTDClientCorePlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.voice.debug.core for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.debug 1 20000 2021-02-11 11:32:29.032
+!MESSAGE 2021-02-11 11:32:29,032 INFO Worker-2 composer.debug.Activator (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.debug for detailed logging
+ 
+
+!ENTRY com.genesyslab.studio.edit 1 20000 2021-02-11 11:32:29.088
+!MESSAGE 2021-02-11 11:32:29,086 INFO Worker-2 gvp.provider.StudioEditPlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.studio.edit for detailed logging
+ 
+
+!ENTRY com.genesyslab.studio.diagram 1 20000 2021-02-11 11:32:29.208
+!MESSAGE 2021-02-11 11:32:29,208 INFO Worker-2 diagram.part.StudioDiagramEditorPlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.studio.diagram for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.customizer 1 20000 2021-02-11 11:32:29.237
+!MESSAGE 2021-02-11 11:32:29,232 INFO Worker-2 composer.customizer.CustomizerPlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.customizer for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.ipd.diagram 1 20000 2021-02-11 11:32:29.379
+!MESSAGE 2021-02-11 11:32:29,379 INFO Worker-2 diagram.part.IpdDiagramEditorPlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.ipd.diagram for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.common.publish 1 20000 2021-02-11 11:32:29.416
+!MESSAGE 2021-02-11 11:32:29,416 INFO Worker-2 common.publish.Activator (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.common.publish for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.route.debug.core 1 20000 2021-02-11 11:32:29.439
+!MESSAGE 2021-02-11 11:32:29,439 INFO Worker-2 debug.core.ORSDCorePlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.route.debug.core for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.route.diagram 1 20000 2021-02-11 11:32:29.508
+!MESSAGE 2021-02-11 11:32:29,508 INFO Worker-2 diagram.part.IrdDiagramEditorPlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.route.diagram for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.534
+!MESSAGE 2021-02-11 11:32:29,534 INFO Worker-2 com.genesyslab.composer.route.migration.Activator - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.route.migration for detailed logging
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.539
+!MESSAGE 2021-02-11 11:32:29,539 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - Initializing Command Line IRD Migration.
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.541
+!MESSAGE 2021-02-11 11:32:29,541 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (0) args: -data
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.541
+!MESSAGE 2021-02-11 11:32:29,541 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (1) args: E:\PersonalProjects\Student-University-App
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.541
+!MESSAGE 2021-02-11 11:32:29,541 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (2) args: -os
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.546
+!MESSAGE 2021-02-11 11:32:29,541 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (3) args: win32
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.546
+!MESSAGE 2021-02-11 11:32:29,546 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (4) args: -ws
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.550
+!MESSAGE 2021-02-11 11:32:29,546 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (5) args: win32
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.551
+!MESSAGE 2021-02-11 11:32:29,550 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (6) args: -arch
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.552
+!MESSAGE 2021-02-11 11:32:29,551 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (7) args: x86_64
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.553
+!MESSAGE 2021-02-11 11:32:29,552 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (8) args: -showsplash
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.553
+!MESSAGE 2021-02-11 11:32:29,553 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (9) args: E:\Eclipse\\plugins\org.eclipse.platform_4.5.2.v20160212-1500\splash.bmp
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.554
+!MESSAGE 2021-02-11 11:32:29,554 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (10) args: -launcher
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.554
+!MESSAGE 2021-02-11 11:32:29,554 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (11) args: E:\Eclipse\eclipse.exe
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.555
+!MESSAGE 2021-02-11 11:32:29,554 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (12) args: -name
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.555
+!MESSAGE 2021-02-11 11:32:29,555 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (13) args: Eclipse
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.555
+!MESSAGE 2021-02-11 11:32:29,555 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (14) args: --launcher.library
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.555
+!MESSAGE 2021-02-11 11:32:29,555 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (15) args: E:\Eclipse\\plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.300.v20150602-1417\eclipse_1611.dll
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.555
+!MESSAGE 2021-02-11 11:32:29,555 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (16) args: -startup
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.559
+!MESSAGE 2021-02-11 11:32:29,559 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (17) args: E:\Eclipse\\plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.560
+!MESSAGE 2021-02-11 11:32:29,559 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (18) args: --launcher.appendVmargs
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.561
+!MESSAGE 2021-02-11 11:32:29,560 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (19) args: -exitdata
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.563
+!MESSAGE 2021-02-11 11:32:29,562 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (20) args: 710_138
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.563
+!MESSAGE 2021-02-11 11:32:29,563 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (21) args: -product
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.563
+!MESSAGE 2021-02-11 11:32:29,563 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (22) args: -vm
+ 
+
+!ENTRY com.genesyslab.composer.route.migration 1 20000 2021-02-11 11:32:29.563
+!MESSAGE 2021-02-11 11:32:29,563 INFO Worker-2 com.genesyslab.composer.route.migration.commandline.CommandLineMigration - IRD Migration command line (23) args: C:\ProgramData\Oracle\Java\javapath\javaw.exe
+ 
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2021-02-11 11:32:29.804
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more

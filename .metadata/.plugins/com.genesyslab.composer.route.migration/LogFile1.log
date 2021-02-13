@@ -1,0 +1,27 @@
+2021-02-11 11:32:29,534 INFO Worker-2 route.migration.Activator (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.route.migration for detailed logging
+ 2021-02-11 11:32:29,539 INFO Worker-2 migration.commandline.CommandLineMigration (?) - Initializing Command Line IRD Migration.
+ 2021-02-11 11:32:29,541 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (0) args: -data
+ 2021-02-11 11:32:29,541 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (1) args: E:\PersonalProjects\Student-University-App
+ 2021-02-11 11:32:29,541 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (2) args: -os
+ 2021-02-11 11:32:29,541 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (3) args: win32
+ 2021-02-11 11:32:29,546 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (4) args: -ws
+ 2021-02-11 11:32:29,546 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (5) args: win32
+ 2021-02-11 11:32:29,550 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (6) args: -arch
+ 2021-02-11 11:32:29,551 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (7) args: x86_64
+ 2021-02-11 11:32:29,552 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (8) args: -showsplash
+ 2021-02-11 11:32:29,553 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (9) args: E:\Eclipse\\plugins\org.eclipse.platform_4.5.2.v20160212-1500\splash.bmp
+ 2021-02-11 11:32:29,554 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (10) args: -launcher
+ 2021-02-11 11:32:29,554 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (11) args: E:\Eclipse\eclipse.exe
+ 2021-02-11 11:32:29,554 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (12) args: -name
+ 2021-02-11 11:32:29,555 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (13) args: Eclipse
+ 2021-02-11 11:32:29,555 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (14) args: --launcher.library
+ 2021-02-11 11:32:29,555 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (15) args: E:\Eclipse\\plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.300.v20150602-1417\eclipse_1611.dll
+ 2021-02-11 11:32:29,555 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (16) args: -startup
+ 2021-02-11 11:32:29,559 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (17) args: E:\Eclipse\\plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar
+ 2021-02-11 11:32:29,559 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (18) args: --launcher.appendVmargs
+ 2021-02-11 11:32:29,560 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (19) args: -exitdata
+ 2021-02-11 11:32:29,562 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (20) args: 710_138
+ 2021-02-11 11:32:29,563 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (21) args: -product
+ 2021-02-11 11:32:29,563 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (22) args: -vm
+ 2021-02-11 11:32:29,563 INFO Worker-2 migration.commandline.CommandLineMigration (?) - IRD Migration command line (23) args: C:\ProgramData\Oracle\Java\javapath\javaw.exe
+ 

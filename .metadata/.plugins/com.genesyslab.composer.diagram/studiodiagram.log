@@ -1,0 +1,3 @@
+2021-02-11 11:32:28,394 INFO Worker-2 composer.diagram.ComposerDiagramEditorPlugin (?) - Log4j has been successfully configured - Please see E:/PersonalProjects/Student-University-App/.metadata/.plugins/com.genesyslab.composer.diagram for detailed logging
+ 2021-02-11 11:42:08,207 DEBUG Framework stop internal.palette.PaletteState (?) - No palette persistence data exists.  Using defaults.
+ 
