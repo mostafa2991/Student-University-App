@@ -1,4 +1,4 @@
-package com.M_ElHagez.web.jdbc;
+package com.hegazy.utils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,6 +9,8 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
+import com.hegazy.dao.Student;
+
 public class StudentDbUtil {
 
 	private DataSource dataSource;
@@ -16,6 +18,7 @@ public class StudentDbUtil {
 	public StudentDbUtil(DataSource theDataSource) {
 		dataSource = theDataSource;
 	}
+	
 	
 	public List<Student> getStudents() throws Exception {
 		

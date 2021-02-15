@@ -1,6 +1,7 @@
-package com.M_ElHagez.web.jdbc;
+package com.hegazy.controller;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -12,24 +13,41 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
-/**
- * Servlet implementation class StudentControllerServlet
- */
+import com.hegazy.dao.Student;
+import com.hegazy.utils.Schema;
+import com.hegazy.utils.StudentDbUtil;
+
 @WebServlet("/StudentControllerServlet")
 public class StudentControllerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	private StudentDbUtil studentDbUtil;
+	private String status;
+	private String alert;
 	
 	@Resource(name="jdbc/web_student_tracker")
 	private DataSource dataSource;
 	
+	@Override
+	public void destroy() {
+//		super.destroy();
+		System.out.println("calling destroy method");
+		try {
+			Schema.dropTheSchema();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
 	@Override
 	public void init() throws ServletException {
 		super.init();
 		
 		// create our student db util ... and pass in the conn pool / datasource
 		try {
+			System.out.println("creating new schema");
+			Schema.createNewSchema();
+			System.out.println("new schema created");
 			studentDbUtil = new StudentDbUtil(dataSource);
 		}
 		catch (Exception exc) {
@@ -90,7 +108,8 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// delete student from database
 		studentDbUtil.deleteStudent(theStudentId);
-		
+		status = "The student with id "+ theStudentId +" deleted successfully ";
+		alert="alert-danger";
 		// send them back to "list students" page
 		listStudents(request, response);
 	}
@@ -109,7 +128,8 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// perform update on database
 		studentDbUtil.updateStudent(theStudent);
-		
+		status = "The student with name "+ theStudent.getFirstName() +" updated successfully ";
+		alert="alert-success";
 		// send them back to the "list students" page
 		listStudents(request, response);
 		
@@ -129,7 +149,7 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// send to jsp page: update-student-form.jsp
 		RequestDispatcher dispatcher = 
-				request.getRequestDispatcher("/update-student-form.jsp");
+				request.getRequestDispatcher("JSP/update-student-form.jsp");
 		dispatcher.forward(request, response);		
 	}
 
@@ -145,8 +165,10 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// add the student to the database
 		studentDbUtil.addStudent(theStudent);
-				
+		status = "The student with name "+ theStudent.getFirstName() +" created successfully ";
+		alert="alert-success";
 		// send back to main page (the student list)
+		
 		listStudents(request, response);
 	}
 
@@ -158,9 +180,11 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// add students to the request
 		request.setAttribute("STUDENT_LIST", students);
+		request.setAttribute( "STATUS", status);
+		request.setAttribute( "ALERT", alert);
 				
 		// send to JSP page (view)
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/list-students.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("JSP/list-students.jsp");
 		dispatcher.forward(request, response);
 	}
 

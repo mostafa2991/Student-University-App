@@ -3,7 +3,6 @@
   <display-name>web-student-tracker</display-name>
   <welcome-file-list>
     <welcome-file>StudentControllerServlet</welcome-file>
-    <welcome-file>fuk.jsp</welcome-file>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
  

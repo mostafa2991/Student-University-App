@@ -4,29 +4,35 @@
 <html>
 
 <head>
-	<title>Student Tracker App</title>
+	<title>CRUD Using JSP-Servlet </title>
 	
 	<link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+
 	<div id="wrapper">
 		<div id="header">
-			<h2>FooBar University</h2>
+			<h2>ElHagez Company</h2>
 		</div>
 	</div>
 
 	<div id="container">
 	
+	
+			
+			
 		<div id="content">
 		
 			<!-- put new button: Add Student -->
 			
 			<input type="button" value="Add Student" 
-				   onclick="window.location.href='add-student-form.jsp'; return false;"
+				   onclick="window.location.href='JSP/add-student-form.jsp'; return false;"
 				   class="add-student-button"
 			/>
+			
+			<p class="${ALERT}" id="alert"> ${STATUS} </p>
 			
 			<table>
 			
@@ -71,6 +77,8 @@
 		</div>
 	
 	</div>
+	 <!-- javascript -->
+   <script type="text/javascript" src="JS/app.js"></script>
 </body>
 
 

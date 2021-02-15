@@ -1,4 +1,4 @@
-package com.M_ElHagez.web.jdbc;
+package com.hegazy.dao;
 
 public class Student {
 
